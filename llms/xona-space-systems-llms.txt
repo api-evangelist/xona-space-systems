@@ -1,0 +1,28 @@
+# Xona Space Systems
+
+> Xona Space Systems builds Pulsar, a commercial low-Earth-orbit (LEO) positioning, navigation, and timing (PNT) satellite service designed to complement and harden GPS with centimeter-level accuracy and encrypted, jam-resistant signals. Xona publishes no public developer API, SDKs, or developer portal as of July 2026; its ecosystem is delivered through receiver, simulator, and test-platform partners under the Pulsar Verified program.
+
+Xona Space Systems is a Craft Ventures portfolio company headquartered in Burlingame, California. The Pulsar service targets a constellation of 258 small satellites at roughly 1,080 km altitude, and is designed so existing GNSS devices can adopt it via software/firmware updates from ecosystem partners (Trimble, Septentrio, Topcon, Furuno, Murata, Locus Lock, and others). Serves defense, agriculture, telecom, transportation, infrastructure, maritime, aviation, and autonomous systems.
+
+## Company
+
+- [Website](https://www.xonaspace.com/): Company homepage
+- [Pulsar](https://www.xonaspace.com/pulsar): The Pulsar LEO PNT navigation service
+- [Technology](https://www.xonaspace.com/technology): How the Pulsar signal and constellation work
+- [Pulsar Verified ecosystem](https://www.xonaspace.com/ecosystem/verification): Receiver, simulator, and test-platform verification program
+- [Devices](https://www.xonaspace.com/ecosystem/devices): Pulsar-compatible devices from ecosystem partners
+- [Newsroom](https://www.xonaspace.com/news): News, press releases, and technical blog
+- [Blog](https://www.xonaspace.com/news/blog): Technical and company blog posts
+- [Contact](https://www.xonaspace.com/contact): Talk to the Xona team
+- [Legal](https://www.xonaspace.com/legal): Cookie policy and legal notices
+
+## API Evangelist profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/xona-space-systems/refs/heads/main/apis.yml): Machine-readable profile of this company in the API Evangelist network
+
+## Notes for agents
+
+- No public REST/GraphQL/gRPC API, developer portal, or API documentation was found on any Xona Space Systems property (checked July 2026).
+- No GitHub organization, npm/PyPI packages, or first-party client libraries were found.
+- No /.well-known discovery documents (security.txt, openid-configuration, api-catalog) are published.
+- Access to the Pulsar signal and test infrastructure is arranged through direct contact and the Pulsar Verified partner program, not self-service developer onboarding.

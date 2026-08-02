@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of xonaspace.com + www.xonaspace.com
+note: No well-known discovery documents are published on either host; all probes
+  returned 404. Recorded so re-runs know the surface was checked. No WellKnown
+  pointer is wired in apis.yml because no document actually exists.
+hosts:
+- host: https://xonaspace.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://www.xonaspace.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
