@@ -1,0 +1,52 @@
+edges:
+- partner_name: FCC Space Station Authorizations (Part 25)
+  partner: null
+  partner_match: register-name
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.fcc.gov/approved-space-station-list
+  category: FCC-authorised space station operator
+  contract_reference:
+    register: FCC Approved Space Station List (fcc.gov/approved-space-station-list, ssal.xlsx; IBFS/ICFS is the
+      official database)
+    standard: FCC Part 25
+    spec_file: null
+    role: fcc-space-station-licensee
+    registered_name: Xona Space Systems, Inc.
+    register_id: https://www.fcc.gov/sites/default/files/ssal.xlsx
+    matched_domain: null
+    matched_by: register-name
+    domain_source: register-name
+    authorisations:
+    - US licence
+    administrations:
+    - U.S.A.
+    space_stations:
+    - IOV
+    certified_products:
+    - product: 'FCC space station authorisation: RNSS'
+      service: RNSS
+      lapsed: false
+    signal_note: certified_products = one per SERVICE TYPE authorised (the licence / market-access grant is the
+      certification); satellites, call signs and orbital slots are context, never counted. The list carries current
+      authorisations only (lapsed false)
+    detected_by: sweep-space-satellite.py
+    detected: '2026-10-20'
+    register_name_note: register-name 'xonaspacesystems' = xona-space-systems; no wikidata P856
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-space-satellite.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://www.fcc.gov/sites/default/files/ssal.xlsx
+- https://stacindex.org/api/catalogs
+- https://registry.opendata.aws/
+checked:
+- https://registry.opendata.aws/
+- https://stacindex.org/api/catalogs
+- https://www.fcc.gov/sites/default/files/ssal.xlsx
